@@ -1,0 +1,42 @@
+/* .navbar-dark {
+    background-color: rgb(11, 4, 51);
+  } */
+
+#navbardrop {
+    color: wheat;
+}
+
+.navbar-nav {
+    float:none;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > .nav-item {
+    display: inline-block;
+    float:none;
+    padding-left: 6px;
+    padding-right: 6px;
+    justify-content: center;
+} 
+.dropdown {
+    position: relative;
+}
+.dropdown-menu {
+    background-color: rgb(116, 96, 8);
+    position: absolute;
+}
+
+.dropdown-menu > .nav-link:hover {
+    background-color: rgb(36, 29, 1);
+}
+
+.dropdown-item {
+    color: rgb(26, 4, 4);
+
+}
+
+.dropdown-item:hover {
+    color: rgb(238, 23, 23);
+    background-color: rgb(36, 29, 1);
+}

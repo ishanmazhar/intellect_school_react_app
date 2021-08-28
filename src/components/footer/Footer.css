@@ -1,0 +1,92 @@
+html {
+scroll-behavior: smooth;
+}
+
+.navbar-dark {
+background-color: rgb(31, 26, 4);
+}
+
+.footer {
+padding: 40px 0px 20px 0px;
+background-color: rgb(31, 26, 4);
+height:min-content;
+}
+
+/* .nav-link {
+color: white;
+cursor: pointer;
+}
+
+.display-card {
+background-color: rgb(82, 70, 16); 
+color:wheat;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.carousel {
+margin-top: 10px;
+}
+.carousel-caption-card {
+background-color: rgb(59, 50, 8); 
+color:wheat;
+border:5px solid rgb(31, 26, 4);
+margin-top: 10px;
+margin-bottom: 2px;
+text-align: center; 
+} */
+
+/* .comments-card {
+background-color: rgb(82, 70, 16); 
+color:wheat;
+height: 200px;
+overflow: auto;
+}
+.welcome {
+padding:20px;
+margin-top:20px;
+font-size: 20px;
+margin-top: 30px;
+margin-bottom: 30px;
+margin-right: auto;
+margin-left: auto;
+border-radius: 15px 50px;
+background: #fde7ab;
+}
+.welcome-title {
+margin-bottom: 30px;
+display:block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+.justify {
+text-align: justify;
+} */
+
+/* .container {
+margin:0;
+padding: 0;
+} */
+
+.center {
+display:block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+background-color: rgb(31, 26, 4);
+} 
+
+a {
+color:white;
+display:block; 
+}
+a:link {
+text-decoration: none;
+}
+a:hover {
+color:burlywood;
+}
+  
+  
+  
