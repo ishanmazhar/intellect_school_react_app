@@ -1,4 +1,4 @@
-import { management } from "../../textContents/management";
+import { facilities } from "../../textContents/facilities";
 
 const Facilities = ({ history }) => {
     return (
@@ -8,7 +8,7 @@ const Facilities = ({ history }) => {
                     <h3>School Facilities</h3>
                 </div>
                 <div className="card-body" style={{ width: "100%", textAlign: "justify" }}>
-                    {management}
+                    {facilities}
                 </div>
             </div>
         </div>

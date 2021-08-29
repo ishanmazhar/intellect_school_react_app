@@ -1,12 +1,12 @@
 import './Academics.css';
 import Background from './students-1.jpg';
 import { Link, withRouter, Route, Switch, Redirect } from 'react-router-dom';
-import Management from './Management';
-import OurSchool from './OurSchool';
-import Facilities from './Facilities';
-import SchoolPolicies from './SchoolPolicies';
-import Transport from './Transport';
-import Alumni from './Alumni';
+import Management from './Laboratories';
+import OurSchool from './Departments';
+import Facilities from './FacultyList';
+import SchoolPolicies from './ECA';
+import Transport from './Library';
+import Alumni from './AfterSchool';
 
 const isActive = (history, path) => {
     if (history.location.pathname === path) {
@@ -20,12 +20,12 @@ const SideNav = ({ history }) => {
     return (
         <div class="col-md-3 sidebar">
             <div>
-                <Link className="sidebar-link" to="/academics/our-school" style={isActive(history, '/academics/our-school')}>Our School</Link>
-                <Link className="sidebar-link" to="/academics/facilities" style={isActive(history, '/academics/facilities')}>Facilities</Link>
-                <Link className="sidebar-link" to="/academics/school-policies" style={isActive(history, '/academics/school-policies')}>School Policies</Link>
-                <Link className="sidebar-link" to="/academics/management" style={isActive(history, '/academics/management')}>Management Committee</Link>
-                <Link className="sidebar-link" to="/academics/transport" style={isActive(history, '/academics/transport')}>Transport</Link>
-                <Link className="sidebar-link" to="/academics/alumni" style={isActive(history, '/academics/alumni')}>Alumni Association</Link>
+                <Link className="sidebar-link" to="/academics/our-school" style={isActive(history, '/academics/our-school')}>Departments</Link>
+                <Link className="sidebar-link" to="/academics/facilities" style={isActive(history, '/academics/facilities')}>Faculty List</Link>
+                <Link className="sidebar-link" to="/academics/school-policies" style={isActive(history, '/academics/school-policies')}>Extra Curricular Activities</Link>
+                <Link className="sidebar-link" to="/academics/management" style={isActive(history, '/academics/management')}>Laboratories</Link>
+                <Link className="sidebar-link" to="/academics/transport" style={isActive(history, '/academics/transport')}>Library</Link> 
+                <Link className="sidebar-link" to="/academics/alumni" style={isActive(history, '/academics/alumni')}>After-School Programs</Link>
             </div>
         </div>
     )

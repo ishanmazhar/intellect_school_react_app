@@ -32,8 +32,8 @@ const Header = ({ history }) => {
                                 <Link className="nav-link" to="/academics/facilities" style={isActive(history, '/academics/facilities')}>Faculty List</Link>
                                 <Link className="nav-link" to="/academics/school-policies" style={isActive(history, '/academics/school-policies')}>Extra Curricular Activities</Link>
                                 <Link className="nav-link" to="/academics/management" style={isActive(history, '/academics/management')}>Laboratories</Link>
-                                <Link className="nav-link" to="/academics/transport" style={isActive(history, '/academics/transport')}>Transport</Link>
-                                <Link className="nav-link" to="/academics/alumni" style={isActive(history, '/academics/alumni')}>Alumni Association</Link>
+                                <Link className="nav-link" to="/academics/transport" style={isActive(history, '/academics/transport')}>Library</Link>
+                                <Link className="nav-link" to="/academics/alumni" style={isActive(history, '/academics/alumni')}>After-School Programs</Link>
                             </div>
                         </li>
 
